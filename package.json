@@ -1,0 +1,36 @@
+{
+  "name": "new-map-app",
+  "version": "0.0.0",
+  "scripts": {
+    "clean": "echo 'Please wait...' && rm -r node_modules package-lock.json dist",
+    "init": "npm install",
+    "dev": "vite --port 5000",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5050 --host",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "@googlemaps/js-api-loader": "^1.14.3",
+    "pinia": "^2.0.14",
+    "postcss-import": "^15.0.0",
+    "postcss-nested": "^6.0.0",
+    "autoprefixer": "^10.4.7"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@types/google.maps": "^3.49.2",
+    "@types/node": "^20.3.0",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@vue/tsconfig": "^0.4.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "typescript": "~5.2.2",
+    "prettier": "^3.0.3",
+    "vite": "^3.0.1",
+    "vue-tsc": "^1.0.9"
+  }
+}
