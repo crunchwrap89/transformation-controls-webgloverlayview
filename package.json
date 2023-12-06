@@ -11,12 +11,14 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "vue": "^3.2.37",
     "@googlemaps/js-api-loader": "^1.14.3",
+    "@types/three": "^0.159.0",
+    "autoprefixer": "^10.4.7",
     "pinia": "^2.0.14",
     "postcss-import": "^15.0.0",
     "postcss-nested": "^6.0.0",
-    "autoprefixer": "^10.4.7"
+    "three": "^0.159.0",
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
@@ -28,8 +30,8 @@
     "@vue/tsconfig": "^0.4.0",
     "eslint": "^8.5.0",
     "eslint-plugin-vue": "^9.0.0",
-    "typescript": "~5.2.2",
     "prettier": "^3.0.3",
+    "typescript": "~5.2.2",
     "vite": "^3.0.1",
     "vue-tsc": "^1.0.9"
   }
