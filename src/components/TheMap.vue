@@ -36,9 +36,28 @@ function edit3DObject() {
   }
 }
 
+function zoomOut() {
+  map.setZoom(map.getZoom()! - 1)
+  console.log('new zoomLvl: ', map.getZoom())
+}
+
 onMounted(() => {
   edit3DObject()
 });
 </script>
 
-<template><div></div></template>
+<template>
+    <div class="zoom-button" @click="zoomOut">zoom out</div>
+</template>
+
+<style>
+.zoom-button {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1000;
+}
+</style>
