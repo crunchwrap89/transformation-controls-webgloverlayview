@@ -17,7 +17,7 @@
     "pinia": "^2.1.7",
     "postcss-import": "^15.1.0",
     "postcss-nested": "^6.0.1",
-    "three": "^0.159.0",
+    "three": "^0.160.0",
     "vue": "^3.3.10"
   },
   "devDependencies": {
