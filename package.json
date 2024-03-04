@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.16.2",
-    "@types/three": "^0.159.0",
+    "@types/three": "^0.162.0",
     "autoprefixer": "^10.4.16",
     "pinia": "^2.1.7",
     "postcss-import": "^15.1.0",
